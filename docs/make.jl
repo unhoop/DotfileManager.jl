@@ -9,7 +9,6 @@ makedocs(;
     repo="https://github.com/unhoop/DotfileManager.jl/blob/{commit}{path}#L{line}",
     sitename="DotfileManager.jl",
     authors="Orestis Ousoultzoglou & Stavros Filosidis",
-    assets=String[],
 )
 
 deploydocs(;
