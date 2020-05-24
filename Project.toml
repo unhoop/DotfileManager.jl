@@ -3,11 +3,16 @@ uuid = "82ddfd82-4ee7-49bb-896e-5558c851044d"
 authors = ["Orestis Ousoultzoglou & Stavros Filosidis"]
 version = "0.1.0"
 
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+TOML = "191fdcea-f9f2-43e0-b922-d33f71e2abc3"
+
 [compat]
 julia = "1.4.1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 
 [targets]
-test = ["Test"]
+test = ["Test","SafeTestsets"]

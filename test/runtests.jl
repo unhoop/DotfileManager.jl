@@ -1,7 +1,2 @@
-using DotfileManager
-using Test
-
-@testset "DotfileManager.jl" begin
-    # Was Aristotle right?
-	@test getA() == :A
-end
+using SafeTestsets
+@safetestset "My placeholder tests" begin include("placeholder_tests.jl") end

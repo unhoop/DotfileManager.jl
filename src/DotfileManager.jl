@@ -1,7 +1,5 @@
 module DotfileManager
 
-export getA
-
-getA() = :A
+    include("argparse.jl")
 
 end # module
